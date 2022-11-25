@@ -67,7 +67,6 @@ function CreateTaxi(x, y, z)
 				SetBlipFlashTimer(blip, 5000)
 
 				SetModelAsNoLongerNeeded(taxiModel)
-
 				SetHornEnabled(taxiVeh, true)
 				StartVehicleHorn(taxiVeh, 1000, GetHashKey("NORMAL"), false)
 
